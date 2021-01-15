@@ -2,7 +2,8 @@
 
 <details>
   <summary>Number Guessing Game</summary>
-  
+    
+    
 Time Boxed: 1h  
 Folowing requirements must be proven! to be fullfilled:
   
