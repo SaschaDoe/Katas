@@ -2,8 +2,8 @@
 
 <details>
   <summary>Number Guessing Game</summary>
-
-Time Boxed: 1h
+  
+Time Boxed: 1h  
 Folowing requirements must be proven! to be fullfilled:
   
 1. Message that the game has started when game opened.
