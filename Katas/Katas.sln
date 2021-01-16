@@ -2,6 +2,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameConsole", "GameConsole\GameConsole.csproj", "{F77B6548-FA40-4846-8AB8-8B5C9719C5EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondKata", "DiamondKata\DiamondKata.csproj", "{5E51B44E-1EE5-4C9E-B427-51D531A5ED3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SDo", "SDo", "{1A7E18FC-0BFB-4BA8-8AB0-3EC647D2BC24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiamondKata", "DiamondKata", "{5009A4D7-043C-4EB7-9CC0-DC020BB9F09F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiamondKataTests", "DiamondKataTests\DiamondKataTests.csproj", "{3CDB2CFF-D0C5-46E8-B256-88DE05038EF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +20,18 @@ Global
 		{F77B6548-FA40-4846-8AB8-8B5C9719C5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F77B6548-FA40-4846-8AB8-8B5C9719C5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F77B6548-FA40-4846-8AB8-8B5C9719C5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E51B44E-1EE5-4C9E-B427-51D531A5ED3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E51B44E-1EE5-4C9E-B427-51D531A5ED3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E51B44E-1EE5-4C9E-B427-51D531A5ED3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E51B44E-1EE5-4C9E-B427-51D531A5ED3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDB2CFF-D0C5-46E8-B256-88DE05038EF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDB2CFF-D0C5-46E8-B256-88DE05038EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDB2CFF-D0C5-46E8-B256-88DE05038EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDB2CFF-D0C5-46E8-B256-88DE05038EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5009A4D7-043C-4EB7-9CC0-DC020BB9F09F} = {1A7E18FC-0BFB-4BA8-8AB0-3EC647D2BC24}
+		{5E51B44E-1EE5-4C9E-B427-51D531A5ED3D} = {5009A4D7-043C-4EB7-9CC0-DC020BB9F09F}
+		{3CDB2CFF-D0C5-46E8-B256-88DE05038EF4} = {5009A4D7-043C-4EB7-9CC0-DC020BB9F09F}
 	EndGlobalSection
 EndGlobal
