@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameConsole", "GameConsole\GameConsole.csproj", "{F77B6548-FA40-4846-8AB8-8B5C9719C5EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLifeOOP", "GameOfLifeOOP\GameOfLifeOOP.csproj", "{545E2985-20E2-4C6E-8F8F-5FCE18CE321A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLifeOOPTests", "GameOfLifeOOPTests\GameOfLifeOOPTests.csproj", "{29BF64BA-D55D-4069-A787-553BE0506E4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{F77B6548-FA40-4846-8AB8-8B5C9719C5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F77B6548-FA40-4846-8AB8-8B5C9719C5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F77B6548-FA40-4846-8AB8-8B5C9719C5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545E2985-20E2-4C6E-8F8F-5FCE18CE321A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545E2985-20E2-4C6E-8F8F-5FCE18CE321A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545E2985-20E2-4C6E-8F8F-5FCE18CE321A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545E2985-20E2-4C6E-8F8F-5FCE18CE321A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29BF64BA-D55D-4069-A787-553BE0506E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BF64BA-D55D-4069-A787-553BE0506E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BF64BA-D55D-4069-A787-553BE0506E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BF64BA-D55D-4069-A787-553BE0506E4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
