@@ -1,6 +1,6 @@
 using System;
 
-namespace GameOfLifeOOP
+namespace GameOfLifeOOP.Components
 {
     public class Percentage
     {

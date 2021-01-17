@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using GameConsole;
+using GameOfLifeOOP.Components;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GameOfLifeOOPTests
+namespace GameOfLifeOOPTests.Components
 {
     [TestClass]
     public class CellTests

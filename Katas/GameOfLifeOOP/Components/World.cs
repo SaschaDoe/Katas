@@ -1,12 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography;
 using System.Text;
-using GameOfLifeOOP;
 
-namespace GameConsole
+namespace GameOfLifeOOP.Components
 {
     public class World : IEquatable<World>
     {

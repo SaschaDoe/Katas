@@ -1,10 +1,7 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using Microsoft.VisualBasic;
 
-namespace GameConsole
+namespace GameOfLifeOOP.Components
 {
     public class Cell : IEquatable<Cell>
     {

@@ -1,10 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using GameConsole;
-using GameOfLifeOOP;
+using GameOfLifeOOP.Components;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace GameOfLifeOOPTests
+namespace GameOfLifeOOPTests.Components
 {
     [TestClass]
     public class WorldTests

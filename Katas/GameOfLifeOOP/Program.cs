@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using GameConsole;
+using GameOfLifeOOP.Components;
 
 namespace GameOfLifeOOP
 {
