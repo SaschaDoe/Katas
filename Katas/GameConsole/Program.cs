@@ -17,7 +17,7 @@ namespace GameConsole
                 var boolWorldString = ParseBoolArrayToString(boolWorld);
                 Console.Write(boolWorldString);
                 Task.Delay(200).Wait(); 
-                Console.Clear();
+                Console.SetCursorPosition(0,0);
             }
         }
 
