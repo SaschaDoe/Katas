@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fKXMzgIZWQs7wtFkijT7yOgc51mIXF0C61eQ0oz9AUY74hU7+fnrMhmrU17feiY/KYnfYfGPbi7kR2O01jKZ7w==",
+  "dgSpecHash": "jTsywIIWqTiFXaJnME+pb483mqYgGtmC7JhSK+sPath386t+rNPd3qnGdrOVGsShEKvVq/nPZwI+V14QJBP+fA==",
   "success": true,
   "projectFilePath": "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOPTests/GameOfLifeOOPTests.csproj",
   "expectedPackageFiles": [

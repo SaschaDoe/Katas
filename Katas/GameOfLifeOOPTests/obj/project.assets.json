@@ -1634,6 +1634,26 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "GameConsole/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/GameConsole.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameConsole.dll": {}
+        }
+      },
+      "GameOfLifeOOP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/GameOfLifeOOP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameOfLifeOOP.dll": {}
+        }
       }
     }
   },
@@ -5706,10 +5726,22 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "GameConsole/1.0.0": {
+      "type": "project",
+      "path": "../GameConsole/GameConsole.csproj",
+      "msbuildProject": "../GameConsole/GameConsole.csproj"
+    },
+    "GameOfLifeOOP/1.0.0": {
+      "type": "project",
+      "path": "../GameOfLifeOOP/GameOfLifeOOP.csproj",
+      "msbuildProject": "../GameOfLifeOOP/GameOfLifeOOP.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "GameConsole >= 1.0.0",
+      "GameOfLifeOOP >= 1.0.0",
       "MSTest.TestAdapter >= 2.1.1",
       "MSTest.TestFramework >= 2.1.1",
       "Microsoft.NET.Test.Sdk >= 16.7.1",
@@ -5740,7 +5772,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/saschbot/RiderProjects/Katas/Katas/GameConsole/GameConsole.csproj": {
+              "projectPath": "/home/saschbot/RiderProjects/Katas/Katas/GameConsole/GameConsole.csproj"
+            },
+            "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/GameOfLifeOOP.csproj": {
+              "projectPath": "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/GameOfLifeOOP.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
