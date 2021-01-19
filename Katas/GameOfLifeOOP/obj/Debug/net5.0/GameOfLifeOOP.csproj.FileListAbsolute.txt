@@ -1,0 +1,16 @@
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/bin/Debug/net5.0/GameOfLifeOOP
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/bin/Debug/net5.0/GameOfLifeOOP.deps.json
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/bin/Debug/net5.0/GameOfLifeOOP.runtimeconfig.json
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/bin/Debug/net5.0/GameOfLifeOOP.runtimeconfig.dev.json
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/bin/Debug/net5.0/GameOfLifeOOP.dll
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/bin/Debug/net5.0/ref/GameOfLifeOOP.dll
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/bin/Debug/net5.0/GameOfLifeOOP.pdb
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/obj/Debug/net5.0/GameOfLifeOOP.csprojAssemblyReference.cache
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/obj/Debug/net5.0/GameOfLifeOOP.GeneratedMSBuildEditorConfig.editorconfig
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/obj/Debug/net5.0/GameOfLifeOOP.AssemblyInfoInputs.cache
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/obj/Debug/net5.0/GameOfLifeOOP.AssemblyInfo.cs
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/obj/Debug/net5.0/GameOfLifeOOP.csproj.CoreCompileInputs.cache
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/obj/Debug/net5.0/GameOfLifeOOP.dll
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/obj/Debug/net5.0/ref/GameOfLifeOOP.dll
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/obj/Debug/net5.0/GameOfLifeOOP.pdb
+/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/obj/Debug/net5.0/GameOfLifeOOP.genruntimeconfig.cache

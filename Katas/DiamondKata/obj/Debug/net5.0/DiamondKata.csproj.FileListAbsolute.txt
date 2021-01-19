@@ -1,0 +1,12 @@
+/home/saschbot/RiderProjects/Katas/Katas/DiamondKata/bin/Debug/net5.0/DiamondKata.deps.json
+/home/saschbot/RiderProjects/Katas/Katas/DiamondKata/bin/Debug/net5.0/DiamondKata.dll
+/home/saschbot/RiderProjects/Katas/Katas/DiamondKata/bin/Debug/net5.0/ref/DiamondKata.dll
+/home/saschbot/RiderProjects/Katas/Katas/DiamondKata/bin/Debug/net5.0/DiamondKata.pdb
+/home/saschbot/RiderProjects/Katas/Katas/DiamondKata/obj/Debug/net5.0/DiamondKata.csprojAssemblyReference.cache
+/home/saschbot/RiderProjects/Katas/Katas/DiamondKata/obj/Debug/net5.0/DiamondKata.GeneratedMSBuildEditorConfig.editorconfig
+/home/saschbot/RiderProjects/Katas/Katas/DiamondKata/obj/Debug/net5.0/DiamondKata.AssemblyInfoInputs.cache
+/home/saschbot/RiderProjects/Katas/Katas/DiamondKata/obj/Debug/net5.0/DiamondKata.AssemblyInfo.cs
+/home/saschbot/RiderProjects/Katas/Katas/DiamondKata/obj/Debug/net5.0/DiamondKata.csproj.CoreCompileInputs.cache
+/home/saschbot/RiderProjects/Katas/Katas/DiamondKata/obj/Debug/net5.0/DiamondKata.dll
+/home/saschbot/RiderProjects/Katas/Katas/DiamondKata/obj/Debug/net5.0/ref/DiamondKata.dll
+/home/saschbot/RiderProjects/Katas/Katas/DiamondKata/obj/Debug/net5.0/DiamondKata.pdb

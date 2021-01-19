@@ -1,0 +1,16 @@
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/bin/Debug/net5.0/GameConsole
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/bin/Debug/net5.0/GameConsole.deps.json
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/bin/Debug/net5.0/GameConsole.runtimeconfig.json
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/bin/Debug/net5.0/GameConsole.runtimeconfig.dev.json
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/bin/Debug/net5.0/GameConsole.dll
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/bin/Debug/net5.0/ref/GameConsole.dll
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/bin/Debug/net5.0/GameConsole.pdb
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/obj/Debug/net5.0/GameConsole.csprojAssemblyReference.cache
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/obj/Debug/net5.0/GameConsole.GeneratedMSBuildEditorConfig.editorconfig
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/obj/Debug/net5.0/GameConsole.AssemblyInfoInputs.cache
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/obj/Debug/net5.0/GameConsole.AssemblyInfo.cs
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/obj/Debug/net5.0/GameConsole.csproj.CoreCompileInputs.cache
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/obj/Debug/net5.0/GameConsole.dll
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/obj/Debug/net5.0/ref/GameConsole.dll
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/obj/Debug/net5.0/GameConsole.pdb
+/home/saschbot/RiderProjects/Katas/Katas/GameConsole/obj/Debug/net5.0/GameConsole.genruntimeconfig.cache
