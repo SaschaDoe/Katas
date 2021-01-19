@@ -156,6 +156,17 @@ namespace GameOfLifeOOPTests.Components
             
             Assert.IsTrue(world.Equals(world));
         }
+        
+        [TestMethod]
+        [TestCategory("Unit")]
+        public void Equals_True_When_Equals()
+        {
+            var world = new World(1, 1, new Percentage(0));
+            var grid = world.CellGrid;
+            var sameWorld = new World(grid);
+            
+            Assert.IsTrue(world.Equals(sameWorld));
+        }
 
         #endregion
 
