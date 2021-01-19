@@ -49,11 +49,6 @@ namespace GameOfLifeOOP.Components
             }
         }
 
-        public override string ToString()
-        {
-            return IsAlive ? "*" : ".";
-        }
-
         public bool Equals(Cell other)
         {
             if (ReferenceEquals(null, other)) return false;

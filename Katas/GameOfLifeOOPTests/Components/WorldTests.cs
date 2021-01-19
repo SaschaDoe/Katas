@@ -159,27 +159,6 @@ namespace GameOfLifeOOPTests.Components
 
         #endregion
 
-        #region ToString
-
-        [TestMethod]
-        [TestCategory("Unit")]
-        public void ToString_OneTile()
-        {
-            var world = new World(1, 1, new Percentage(100));
-            
-            Assert.AreEqual("*",world.ToString());
-        }
-        
-        [TestMethod]
-        [TestCategory("Unit")]
-        public void ToString_FourTiles()
-        {
-            var world = new World(2, 2, new Percentage(100));
-            
-            Assert.AreEqual(@"**
-**",world.ToString());
-        }
-
-        #endregion
+       
     }
 }

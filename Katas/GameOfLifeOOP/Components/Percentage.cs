@@ -4,8 +4,6 @@ namespace GameOfLifeOOP.Components
 {
     public class Percentage
     {
-        
-        
         public Percentage(int value)
         {
             if (value < 0)
@@ -18,7 +16,7 @@ namespace GameOfLifeOOP.Components
             }
             Value = value;
         }
-
-        public int Value { get; init; }
+        
+        public int Value { get; }
     }
 }

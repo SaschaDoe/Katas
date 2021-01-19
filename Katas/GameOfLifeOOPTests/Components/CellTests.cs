@@ -7,33 +7,6 @@ namespace GameOfLifeOOPTests.Components
     [TestClass]
     public class CellTests
     {
-        #region ToString
-
-        [TestMethod]
-        [TestCategory("Unit")]
-        public void ToStringTest_Star_When_IsAlive()
-        {
-            var cell = new Cell()
-            {
-                IsAlive = true
-            };
-            
-            Assert.AreEqual("*",cell.ToString());
-        }
-        
-        [TestMethod]
-        [TestCategory("Unit")]
-        public void ToStringTest_Point_When_IsNotAlive()
-        {
-            var cell = new Cell()
-            {
-                IsAlive = false
-            };
-            
-            Assert.AreEqual(".",cell.ToString());
-        }
-
-        #endregion
 
         #region NextTurnAlive
 
