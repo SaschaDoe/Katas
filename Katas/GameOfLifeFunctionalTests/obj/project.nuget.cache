@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eSwS/0rop80aFkktk2LziDDsHxZ2erBXJ24+gOIUPaBlz7ZSWuBK6TWZ9iz5n+ZfNsPugQtrxQTqe2TjpJl1SA==",
+  "dgSpecHash": "9NFXXgvnDpc9Bd9hlGyHU0QtZdNSeFf6HJSHtCUTFUo4u/e8TYFDGN+fRfJOXdzFiMlmuOva4dryIRwCXkEz2g==",
   "success": true,
   "projectFilePath": "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeFunctionalTests/GameOfLifeFunctionalTests.csproj",
   "expectedPackageFiles": [
