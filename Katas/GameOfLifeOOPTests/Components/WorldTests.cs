@@ -19,7 +19,7 @@ namespace GameOfLifeOOPTests.Components
             
             var expectedCellGrid = new Cell[1][];
             expectedCellGrid[0] = new Cell[1];
-            expectedCellGrid[0][0] = new Cell()
+            expectedCellGrid[0][0] = new Cell
             {
                 IsAlive = true
             };
@@ -37,7 +37,7 @@ namespace GameOfLifeOOPTests.Components
             
             var expectedCellGrid = new Cell[1][];
             expectedCellGrid[0] = new Cell[1];
-            expectedCellGrid[0][0] = new Cell()
+            expectedCellGrid[0][0] = new Cell
             {
                 IsAlive = false
             };
@@ -122,7 +122,7 @@ namespace GameOfLifeOOPTests.Components
         {
             var cellGrid = new Cell[1][];
             cellGrid[0] = new Cell[1];
-            cellGrid[0][0] = new Cell()
+            cellGrid[0][0] = new Cell
             {
                 IsAlive = true,
                 Neighbors = new List<Cell>()

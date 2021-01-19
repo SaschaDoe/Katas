@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace GameOfLifeOOP.Components
 {
@@ -55,7 +54,7 @@ namespace GameOfLifeOOP.Components
                 cellGrid[cellColumnIndex] = new Cell[height];
                 for (var cellRowIndex = 0; cellRowIndex < height; cellRowIndex++)
                 {
-                    cellGrid[cellColumnIndex][cellRowIndex] = new Cell()
+                    cellGrid[cellColumnIndex][cellRowIndex] = new Cell
                     {
                         IsAlive = GenerateIsAlive(percentage, random)
                     };
@@ -120,7 +119,7 @@ namespace GameOfLifeOOP.Components
         {
             if (ReferenceEquals(null, obj)) return false;
             if (ReferenceEquals(this, obj)) return true;
-            if (obj.GetType() != this.GetType()) return false;
+            if (obj.GetType() != GetType()) return false;
             return Equals((World) obj);
         }
 

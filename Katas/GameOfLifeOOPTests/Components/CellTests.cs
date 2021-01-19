@@ -14,7 +14,7 @@ namespace GameOfLifeOOPTests.Components
         [TestCategory("Unit")]
         public void NextTurnAlive_False_When_NoNeighbors()
         {
-            var cell = new Cell()
+            var cell = new Cell
             {
                 IsAlive = true,
                 Neighbors = new List<Cell>()
@@ -27,12 +27,12 @@ namespace GameOfLifeOOPTests.Components
         [TestCategory("Unit")]
         public void NextTurnAlive_False_When_OneLivingNeighbor()
         {
-            var cell = new Cell()
+            var cell = new Cell
             {
                 IsAlive = true,
-                Neighbors = new List<Cell>()
+                Neighbors = new List<Cell>
                 {
-                    new Cell()
+                    new()
                     {
                         IsAlive = true
                     }
@@ -46,14 +46,14 @@ namespace GameOfLifeOOPTests.Components
         [TestCategory("Unit")]
         public void NextTurnAlive_True_When_Living_And_TwoLivingNeighbor()
         {
-            var neighborCell = new Cell()
+            var neighborCell = new Cell
             {
                 IsAlive = true
             };
-            var cell = new Cell()
+            var cell = new Cell
             {
                 IsAlive = true,
-                Neighbors = new List<Cell>()
+                Neighbors = new List<Cell>
                 {
                     neighborCell, neighborCell
                 }
@@ -66,14 +66,14 @@ namespace GameOfLifeOOPTests.Components
         [TestCategory("Unit")]
         public void NextTurnAlive_True_When_Living_And_ThreeLivingNeighbor()
         {
-            var neighborCell = new Cell()
+            var neighborCell = new Cell
             {
                 IsAlive = true
             };
-            var cell = new Cell()
+            var cell = new Cell
             {
                 IsAlive = true,
-                Neighbors = new List<Cell>()
+                Neighbors = new List<Cell>
                 {
                     neighborCell, neighborCell, neighborCell
                 }
@@ -86,14 +86,14 @@ namespace GameOfLifeOOPTests.Components
         [TestCategory("Unit")]
         public void NextTurnAlive_False_When_Living_And_OneLivingNeighbor()
         {
-            var neighborCell = new Cell()
+            var neighborCell = new Cell
             {
                 IsAlive = true
             };
-            var cell = new Cell()
+            var cell = new Cell
             {
                 IsAlive = true,
-                Neighbors = new List<Cell>()
+                Neighbors = new List<Cell>
                 {
                     neighborCell, 
                 }
@@ -106,14 +106,14 @@ namespace GameOfLifeOOPTests.Components
         [TestCategory("Unit")]
         public void NextTurnAlive_False_When_Living_And_FourLivingNeighbor()
         {
-            var neighborCell = new Cell()
+            var neighborCell = new Cell
             {
                 IsAlive = true
             };
-            var cell = new Cell()
+            var cell = new Cell
             {
                 IsAlive = true,
-                Neighbors = new List<Cell>()
+                Neighbors = new List<Cell>
                 {
                     neighborCell, 
                 }
@@ -126,14 +126,14 @@ namespace GameOfLifeOOPTests.Components
         [TestCategory("Unit")]
         public void NextTurnAlive_True_When_Dead_And_ThreeLivingNeighbor()
         {
-            var neighborCell = new Cell()
+            var neighborCell = new Cell
             {
                 IsAlive = true
             };
-            var cell = new Cell()
+            var cell = new Cell
             {
                 IsAlive = false,
-                Neighbors = new List<Cell>()
+                Neighbors = new List<Cell>
                 {
                     neighborCell, neighborCell, neighborCell
                 }
@@ -146,14 +146,14 @@ namespace GameOfLifeOOPTests.Components
         [TestCategory("Unit")]
         public void NextTurnAlive_False_When_Dead_And_TwoLivingNeighbor()
         {
-            var neighborCell = new Cell()
+            var neighborCell = new Cell
             {
                 IsAlive = true
             };
-            var cell = new Cell()
+            var cell = new Cell
             {
                 IsAlive = false,
-                Neighbors = new List<Cell>()
+                Neighbors = new List<Cell>
                 {
                     neighborCell, neighborCell
                 }
@@ -170,15 +170,15 @@ namespace GameOfLifeOOPTests.Components
         [TestCategory("Unit")]
         public void LivingNeighbors_Zero_WhenNoLivingNeighbor()
         {
-            var neighborCell = new Cell()
+            var neighborCell = new Cell
             {
                 IsAlive = false
             };
 
-            var cell = new Cell()
+            var cell = new Cell
             {
                 IsAlive = true,
-                Neighbors = new List<Cell>()
+                Neighbors = new List<Cell>
                 {
                     neighborCell
                 }
@@ -191,15 +191,15 @@ namespace GameOfLifeOOPTests.Components
         [TestCategory("Unit")]
         public void LivingNeighbors_One_WhenLivingNeighbor()
         {
-            var neighborCell = new Cell()
+            var neighborCell = new Cell
             {
                 IsAlive = true
             };
 
-            var cell = new Cell()
+            var cell = new Cell
             {
                 IsAlive = true,
-                Neighbors = new List<Cell>()
+                Neighbors = new List<Cell>
                 {
                     neighborCell
                 }
