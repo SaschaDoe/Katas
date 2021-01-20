@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Luebke\\Katas\\Katas\\GameConsole\\GameConsole.csproj",
-      "projectName": "GameConsole",
-      "projectPath": "C:\\Users\\Luebke\\Katas\\Katas\\GameConsole\\GameConsole.csproj",
+      "projectUniqueName": "C:\\Users\\Luebke\\Katas\\Katas\\BMIFunctional\\BMIFunctional.csproj",
+      "projectName": "BMIFunctional",
+      "projectPath": "C:\\Users\\Luebke\\Katas\\Katas\\BMIFunctional\\BMIFunctional.csproj",
       "packagesPath": "C:\\Users\\Luebke\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Luebke\\Katas\\Katas\\GameConsole\\obj\\",
+      "outputPath": "C:\\Users\\Luebke\\Katas\\Katas\\BMIFunctional\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
