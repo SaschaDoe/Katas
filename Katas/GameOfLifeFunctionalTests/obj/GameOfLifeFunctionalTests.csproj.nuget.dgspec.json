@@ -1,85 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeFunctionalTests/GameOfLifeFunctionalTests.csproj": {}
+    "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameOfLifeFunctionalTests\\GameOfLifeFunctionalTests.csproj": {}
   },
   "projects": {
-    "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeFunctional/GameOfLifeFunctional.csproj": {
+    "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameOfLifeFunctionalTests\\GameOfLifeFunctionalTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeFunctional/GameOfLifeFunctional.csproj",
-        "projectName": "GameOfLifeFunctional",
-        "projectPath": "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeFunctional/GameOfLifeFunctional.csproj",
-        "packagesPath": "/home/saschbot/.nuget/packages/",
-        "outputPath": "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeFunctional/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/home/saschbot/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/5.0.102/RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeFunctionalTests/GameOfLifeFunctionalTests.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeFunctionalTests/GameOfLifeFunctionalTests.csproj",
+        "projectUniqueName": "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameOfLifeFunctionalTests\\GameOfLifeFunctionalTests.csproj",
         "projectName": "GameOfLifeFunctionalTests",
-        "projectPath": "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeFunctionalTests/GameOfLifeFunctionalTests.csproj",
-        "packagesPath": "/home/saschbot/.nuget/packages/",
-        "outputPath": "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeFunctionalTests/obj/",
+        "projectPath": "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameOfLifeFunctionalTests\\GameOfLifeFunctionalTests.csproj",
+        "packagesPath": "C:\\Users\\Luebke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameOfLifeFunctionalTests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/home/saschbot/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Luebke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "\\\\info.team\\itdata\\iNuGet\\public": {},
+          "\\\\info.team\\itdata\\iNuGet\\zenLab\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeFunctional/GameOfLifeFunctional.csproj": {
-                "projectPath": "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeFunctional/GameOfLifeFunctional.csproj"
+              "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameOfLifeFunctional\\GameOfLifeFunctional.csproj": {
+                "projectPath": "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameOfLifeFunctional\\GameOfLifeFunctional.csproj"
               }
             }
           }
@@ -126,7 +80,65 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/current/sdk/5.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameOfLifeFunctional\\GameOfLifeFunctional.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameOfLifeFunctional\\GameOfLifeFunctional.csproj",
+        "projectName": "GameOfLifeFunctional",
+        "projectPath": "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameOfLifeFunctional\\GameOfLifeFunctional.csproj",
+        "packagesPath": "C:\\Users\\Luebke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameOfLifeFunctional\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Luebke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "\\\\info.team\\itdata\\iNuGet\\public": {},
+          "\\\\info.team\\itdata\\iNuGet\\zenLab\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

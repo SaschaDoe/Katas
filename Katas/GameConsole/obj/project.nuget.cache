@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f24rE1W8MsvH204jrZyEiCtrcyr4ul4857K5tO94pGMJmxfTqthCOr9hdGINvh3F+O/ubb8K4op56WECuqbD1A==",
+  "dgSpecHash": "jo5VeOoTaz/ReC+dJucdz0d2l57ED/eTKJBQxVKQNbWnxqIOs9AkVkzNHXqWqdtpt6jimLmZBHbU+j/sH4HCeQ==",
   "success": true,
-  "projectFilePath": "/home/saschbot/RiderProjects/Katas/Katas/GameConsole/GameConsole.csproj",
+  "projectFilePath": "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameConsole\\GameConsole.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

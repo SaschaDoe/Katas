@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yuXFr4xUsAM9vs2qXPDgn4u0642ol29yRxftka17glhbtc9QBypf8BznrPdEKCVt1Aoit0SbGaf/aIzRMET8sA==",
+  "dgSpecHash": "BMi4jnmD9opOv2gZzARt0+brqHMZyd0gsrvb4h/8c8i0lyp3Kep2NzLoTvnul0r794CEA7HrwdRLq7pA+JUbqg==",
   "success": true,
-  "projectFilePath": "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeOOP/GameOfLifeOOP.csproj",
+  "projectFilePath": "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameOfLifeOOP\\GameOfLifeOOP.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

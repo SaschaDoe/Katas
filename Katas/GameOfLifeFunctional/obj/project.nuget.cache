@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CZ2LfFgUaEkGdncEW6B/W2w4tjdc/8xVUFnVibVxuKhs1Z2TON9bBz0BICnrp1gSHdiir3imzqefQc3ceNRCVA==",
+  "dgSpecHash": "4Nms8tr1aiFYZzsCYT5crbLuPBIqTDOboMl7+q5U7phkfpgGUk1Q5XFQGx1UXgrYAPu9wakOSYPieDo0sTOlmg==",
   "success": true,
-  "projectFilePath": "/home/saschbot/RiderProjects/Katas/Katas/GameOfLifeFunctional/GameOfLifeFunctional.csproj",
+  "projectFilePath": "C:\\Users\\Luebke\\RiderProjects\\Katas\\Katas\\GameOfLifeFunctional\\GameOfLifeFunctional.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
