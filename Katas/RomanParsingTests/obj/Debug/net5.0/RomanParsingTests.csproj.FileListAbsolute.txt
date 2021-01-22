@@ -98,9 +98,3 @@ C:\Users\Luebke\RiderProjects\Katas\Katas\RomanParsingTests\obj\Debug\net5.0\Rom
 C:\Users\Luebke\RiderProjects\Katas\Katas\RomanParsingTests\obj\Debug\net5.0\ref\RomanParsingTests.dll
 C:\Users\Luebke\RiderProjects\Katas\Katas\RomanParsingTests\obj\Debug\net5.0\RomanParsingTests.pdb
 C:\Users\Luebke\RiderProjects\Katas\Katas\RomanParsingTests\obj\Debug\net5.0\RomanParsingTests.genruntimeconfig.cache
-C:\Users\Luebke\RiderProjects\Katas\Katas\RomanParsingTests\bin\Debug\net5.0\JetBrains.ReSharper.TestRunner.Merged.dll
-C:\Users\Luebke\RiderProjects\Katas\Katas\RomanParsingTests\bin\Debug\net5.0\JetBrains.ReSharper.TestRunner.Utilities.dll
-C:\Users\Luebke\RiderProjects\Katas\Katas\RomanParsingTests\bin\Debug\net5.0\JetBrains.ReSharper.TestRunner.Abstractions.dll
-C:\Users\Luebke\RiderProjects\Katas\Katas\RomanParsingTests\bin\Debug\net5.0\JetBrains.ReSharper.TestRunner.Merged.pdb
-C:\Users\Luebke\RiderProjects\Katas\Katas\RomanParsingTests\bin\Debug\net5.0\JetBrains.ReSharper.TestRunner.Utilities.pdb
-C:\Users\Luebke\RiderProjects\Katas\Katas\RomanParsingTests\bin\Debug\net5.0\JetBrains.ReSharper.TestRunner.Abstractions.pdb

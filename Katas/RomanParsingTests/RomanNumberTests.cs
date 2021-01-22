@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -10,94 +11,62 @@ namespace RomanParsingTests
     [TestClass]
     public class RomanNumberTests
     {
-
-        #region Constructor
-
-        [TestMethod]
-        [TestCategory("Unit")]
-        public void Constructor_CreateNewRomanNumber()
-        {
-            var romanNumber = new RomanNumber(1);
-            
-            Assert.AreEqual(1, romanNumber.ArabicValue);
-        }
-
-        [TestMethod]
-        [TestCategory("Unit")]
-        public void Constructor_ThrowsArgumentException_When_MinusOne()
-        {
-            var argumentException = Assert.ThrowsException<ArgumentException>(() => new RomanNumber(-1));
-            Assert.AreEqual("No zero or minus values allowed", argumentException.Message);
-        }
-        
-        [TestMethod]
-        [TestCategory("Unit")]
-        public void Constructor_ThrowsArgumentException_When_Zero()
-        {
-            var argumentException = Assert.ThrowsException<ArgumentException>(() => new RomanNumber(0));
-            Assert.AreEqual("No zero or minus values allowed", argumentException.Message);
-        }
-
-        #endregion
-
-        #region Constructor string
-
-        [TestMethod]
-        [TestCategory("Unit")]
-        public void Constructor_String_ThrwosArgumentNullException_When_Null()
-        {
-            Assert.ThrowsException<ArgumentNullException>(() => new RomanNumber(null));
-        }
-
-        [TestMethod]
-        [TestCategory("Unit")]
-        public void Constructor_String_ArabicValueOne_When_I()
-        {
-            var romanNumber = new RomanNumber("I");
-
-            Assert.AreEqual(1, romanNumber.ArabicValue);
-        }
-        
-        [TestMethod]
-        [TestCategory("Unit")]
-        public void Constructor_String_ArabicValueTwo_When_II()
-        {
-            var romanNumber = new RomanNumber("II");
-
-            Assert.AreEqual(2, romanNumber.ArabicValue);
-        }
-
-        #endregion
-
         #region Create RomanNumber
 
-        [TestMethod]
+        [DataTestMethod]
         [TestCategory("Unit")]
-        public void Create_RomanNumber_I_When_I()
+        [DynamicData(nameof(GetNumbersOneToHundred), DynamicDataSourceType.Method)]
+        public void Of_Int_ShouldBeEqual(int arabicNumber, string romanNumberString)
         {
-            var romanNumber = RomanNumber.Create("I");
-            
-            romanNumber.Match(
-                error => Assert.Fail(),
-                result => Assert.AreEqual("I",result.ToString()));
-            
+            RomanNumber.Of(arabicNumber)
+                .Match(
+                    error => Assert.Fail(),
+                    romanNumber => Assert.AreEqual(romanNumberString,romanNumber.ToString()));
+        }
+        
+        [DataTestMethod]
+        [TestCategory("Unit")]
+        [DynamicData(nameof(GetNumbersOneToHundred), DynamicDataSourceType.Method)]
+        public void Of_String_ShouldBeEqual(int arabicNumber, string romanNumberString)
+        {
+            RomanNumber.Of(romanNumberString)
+                .Match(
+                    error => Assert.Fail(),
+                    romanNumber => Assert.AreEqual(arabicNumber,romanNumber.ArabicValue));
+        }
+
+        static IEnumerable<object[]> GetNumbersOneToHundred()
+        {
+            return new[]
+            {
+                new object[] {1, "I"},
+                new object[] {2, "II"},
+                new object[] {3, "III"},
+                new object[] {4, "IV"},
+                new object[] {5, "V"},
+                new object[] {6, "VI"},
+                new object[] {7, "VII"},
+                new object[] {8, "VIII"},
+                new object[] {9, "IX"},
+                new object[] {10, "X"},
+                new object[] {11, "XI"},
+                new object[] {12, "XII"},
+                new object[] {13, "XIII"},
+                new object[] {14, "XIV"},
+                new object[] {15, "XV"},
+                new object[] {16, "XVI"},
+                new object[] {17, "XVII"},
+                new object[] {18, "XVIII"},
+                new object[] {19, "XIX"},
+                new object[] {20, "XX"},
+                new object[] {54, "LIV"},
+                new object[] {99, "XCIX"},
+                new object[] {100, "C"},
+                new object[] {101, "CI"},
+            }; 
         }
 
         #endregion
-
-
-        #region ToString
-
-        [TestMethod]
-        [TestCategory("Unit")]
-        public void ToString_XI_When_Six()
-        {
-            var romanNumber = new RomanNumber(6);
-            const string expectedString = "VI";
-            
-            Assert.AreEqual(expectedString,romanNumber.ToString());
-        }
-
-        #endregion
+        
     }
 }
