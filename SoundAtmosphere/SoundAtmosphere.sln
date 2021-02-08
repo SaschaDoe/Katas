@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundAtmosphere", "SoundAtmosphere\SoundAtmosphere.csproj", "{1BF19E43-011F-4CCF-B0F8-B268E418EDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.UI", "Avalonia.UI\Avalonia.UI.csproj", "{8851C3DA-2451-47CA-BC15-F47B47D9B32E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BF19E43-011F-4CCF-B0F8-B268E418EDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF19E43-011F-4CCF-B0F8-B268E418EDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF19E43-011F-4CCF-B0F8-B268E418EDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF19E43-011F-4CCF-B0F8-B268E418EDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8851C3DA-2451-47CA-BC15-F47B47D9B32E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8851C3DA-2451-47CA-BC15-F47B47D9B32E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8851C3DA-2451-47CA-BC15-F47B47D9B32E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8851C3DA-2451-47CA-BC15-F47B47D9B32E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

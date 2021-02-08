@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using RomanParsing;
@@ -11,8 +12,6 @@ namespace RomanParsingTests
     [TestClass]
     public class RomanNumberTests
     {
-        #region Create RomanNumber
-
         [DataTestMethod]
         [TestCategory("Unit")]
         [DynamicData(nameof(GetNumbersOneToHundred), DynamicDataSourceType.Method)]
@@ -66,7 +65,5 @@ namespace RomanParsingTests
             }; 
         }
 
-        #endregion
-        
     }
 }
