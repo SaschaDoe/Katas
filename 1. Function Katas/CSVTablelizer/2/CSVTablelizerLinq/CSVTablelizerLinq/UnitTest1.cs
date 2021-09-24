@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CSVTableTests
+namespace CSVTablelizerLinq
 {
     [TestClass]
     public class UnitTest1
