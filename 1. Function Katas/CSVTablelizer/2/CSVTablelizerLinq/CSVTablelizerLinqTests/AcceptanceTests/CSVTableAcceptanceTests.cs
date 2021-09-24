@@ -12,11 +12,11 @@ namespace CSVTablelizerLinqTests.AcceptanceTests
         private static IEnumerable<string> _oneLineTestInputCsv;
         private static string[][] _nothingTestInput;
         private static IEnumerable<string> _nothingExpected;
-        private static IEnumerable<string> _headerTestInput;
+        private static string[][] _headerTestInput;
         private static IEnumerable<string> _headerExpected;
-        private static IEnumerable<string> _oneHeaderTestInput;
+        private static string[][] _oneHeaderTestInput;
         private static IEnumerable<string> _oneHeaderExpected;
-        private static IEnumerable<string> _acceptanceTestInput;
+        private static string[][] _acceptanceTestInput;
         private static IEnumerable<string> _acceptanceExpected;
 
         [ClassInitialize]
@@ -25,13 +25,13 @@ namespace CSVTablelizerLinqTests.AcceptanceTests
             _nothingTestInput = CsvParser.Parse(CsvReader.ReadDataFrom(@"./Resources/Input_Nothing.csv"));
             _nothingExpected = CsvReader.ReadDataFrom(@"./Resources/Expected_Nothing.txt");
             
-            _oneHeaderTestInput = CsvReader.ReadDataFrom(@"./Resources/Input_JustOneHeader.csv");
+            _oneHeaderTestInput = CsvParser.Parse(CsvReader.ReadDataFrom(@"./Resources/Input_JustOneHeader.csv"));
             _oneHeaderExpected = CsvReader.ReadDataFrom(@"./Resources/Expected_JustOneHeader.txt");
 
-            _headerTestInput = CsvReader.ReadDataFrom(@"./Resources/Input_JustHeader.csv");
+            _headerTestInput = CsvParser.Parse(CsvReader.ReadDataFrom(@"./Resources/Input_JustHeader.csv"));
             _headerExpected = CsvReader.ReadDataFrom(@"./Resources/Expected_JustHeader.txt");
 
-            _acceptanceTestInput = CsvReader.ReadDataFrom(@"./Resources/Input_TablelizerAcceptance.csv");
+            _acceptanceTestInput = CsvParser.Parse(CsvReader.ReadDataFrom(@"./Resources/Input_TablelizerAcceptance.csv"));
             _acceptanceExpected = CsvReader.ReadDataFrom(@"./Resources/Expected_TablelizerAcceptance.txt");
         }
         
@@ -40,38 +40,31 @@ namespace CSVTablelizerLinqTests.AcceptanceTests
         public void Nothing_When_NothingIsEntered()
         {
             var actualTablelizedData = Tablelizer.CreateTable(_nothingTestInput);
-            
             Assert.IsTrue(_nothingExpected.SequenceEqual(actualTablelizedData));
         }
-        /*
+      
         [TestMethod]
         [TestCategory("Unit")]
         public void OneHeader_When_OnlyOneHeaderIsGiven()
         {
-            var csvTable = new CsvTable();
-            var actualTablelizedData = csvTable.Tablelize(_oneHeaderTestInput);
-            
+            var actualTablelizedData = Tablelizer.CreateTable(_oneHeaderTestInput);
             Assert.IsTrue(_oneHeaderExpected.SequenceEqual(actualTablelizedData));
         }
-        
-        [TestMethod]
-        [TestCategory("Unit")]
-        public void Header_When_OnlyHeaderIsGiven()
-        {
-            var csvTable = new CsvTable();
-            var actualTablelizedData = csvTable.Tablelize(_headerTestInput);
-            
-            Assert.IsTrue(_headerExpected.SequenceEqual(actualTablelizedData));
-        }
-        
-        [TestMethod]
-        [TestCategory("Unit")]
-        public void StandardInputTest()
-        {
-            
-            var csvTable = new CsvTable();
-            var actualTablelizedData = csvTable.Tablelize(_acceptanceTestInput);
-            Assert.IsTrue(_acceptanceExpected.SequenceEqual(actualTablelizedData));
-        }*/
+    
+      [TestMethod]
+      [TestCategory("Unit")]
+      public void Header_When_OnlyHeaderIsGiven()
+      {
+          var actualTablelizedData = Tablelizer.CreateTable(_headerTestInput);
+          Assert.IsTrue(_headerExpected.SequenceEqual(actualTablelizedData));
+      }
+      
+      [TestMethod]
+      [TestCategory("Unit")]
+      public void StandardInputTest()
+      {
+          var actualTablelizedData = Tablelizer.CreateTable(_acceptanceTestInput);
+          Assert.IsTrue(_acceptanceExpected.SequenceEqual(actualTablelizedData));
+      }
     }
 }
