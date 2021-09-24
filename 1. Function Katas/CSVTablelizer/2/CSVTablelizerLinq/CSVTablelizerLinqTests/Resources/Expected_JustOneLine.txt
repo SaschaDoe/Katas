@@ -1,0 +1,3 @@
+Name         |Strasse         |Ort          |Alter|
+-------------+----------------+-------------+-----+
+Peter Pan    |Am Hang 5       |12345 Einsam |42   |
